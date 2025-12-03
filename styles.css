@@ -1,0 +1,109 @@
+/* Paleta verde e bege */
+:root {
+    --verde-escuro: #4f772d;
+    --verde-claro: #90a955;
+    --bege-escuro: #D2B48C;
+    --bege-claro: #faedcd;
+    --cor-texto: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bege-claro);
+    color: var(--cor-texto);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: var(--verde-escuro);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+   
+}
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+h1, h2 {
+    color: var(--verde-escuro);
+}
+button {
+    background-color: var(--verde-claro);
+    border: none;
+    color: var(--verde-escuro);
+    padding: 10px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: var(--verde-escuro);
+    color: white;
+}
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid var(--verde-escuro);
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid var(--verde-escuro);
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: var(--bege-escuro);
+}
+.low-stock {
+    background-color: #ffcccc;
+}
+.flex-row {
+    display: flex;
+    gap: 10px;
+}
+.flex1 {
+    flex: 1;
+}
+.discount-input {
+    max-width: 100px;
+}
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+/* ESTILO DO TOPO COM LOGO */
+.topo-estabelecimento {
+    width: 100%;
+    background-color: #4f772d; /* cor verde */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+.logo-estabelecimento {
+    height: 200px;  /* ajuste se necessário */
+    width: 200px;
+}
+
+.nome-estabelecimento {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Georgia", serif;   /* ALTERE AQUI */
+    margin: 0;
+}
